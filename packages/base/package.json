@@ -1,0 +1,22 @@
+{
+    "name": "@amiceli/eslint-config-base",
+    "version": "1.0.0",
+    "description": "base eslint rules package",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:amiceli/eslint.git"
+    },
+    "author": "amiceli",
+    "license": "WTFPL",
+    "dependencies": {
+        "eslint": "8.2.0",
+        "eslint-config-airbnb-base": "^15.0.0"
+    },
+    "peerDependencies": {
+        "eslint": "8.2.0"
+    },
+    "devDependencies": {
+        "eslint-plugin-import": "^2.26.0"
+    }
+}

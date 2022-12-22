@@ -1,0 +1,19 @@
+{
+    "name": "@amiceli/eslint-config-vue",
+    "version": "1.0.0",
+    "description": "vue eslint rules package",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:amiceli/eslint.git"
+    },
+    "author": "amiceli",
+    "license": "WTFPL",
+    "dependencies": {
+        "eslint": "8.2.0",
+        "eslint-plugin-vue": "9.1.1"
+    },
+    "peerDependencies": {
+        "eslint": "8.2.0"
+    }
+}

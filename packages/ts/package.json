@@ -1,0 +1,25 @@
+{
+    "name": "@amiceli/eslint-config-typescript",
+    "version": "1.0.0",
+    "description": "typescript eslint rules",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:amiceli/eslint.git"
+    },
+    "author": "amiceli",
+    "license": "WTFPL",
+    "dependencies": {
+        "@amiceli/eslint-config-base": "1.0.0",
+        "@typescript-eslint/eslint-plugin": "^5.30.0",
+        "@typescript-eslint/parser": "^5.30.0",
+        "eslint": "8.2.0",
+        "eslint-config-airbnb-typescript": "^16.2.0"
+    },
+    "peerDependencies": {
+        "eslint": "8.2.0"
+    },
+    "devDependencies": {
+        "eslint-import-resolver-typescript": "^3.5.2"
+    }
+}

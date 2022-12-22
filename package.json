@@ -1,0 +1,29 @@
+{
+    "description": "eslint rules main package",
+    "main": "index.js",
+    "scripts": {
+        "test:unit": "jest",
+        "test:silent": "jest --silent",
+        "prepare": "husky install"
+    },
+    "keywords": [
+        "eslint",
+        "amiceli"
+    ],
+    "workspaces": [
+        "packages/base",
+        "packages/vue",
+        "packages/ts"
+    ],
+    "devDependencies": {
+        "@types/eslint": "^8.4.10",
+        "@types/jest": "^29.2.3",
+        "husky": "^8.0.2",
+        "jest": "^29.3.1",
+        "lint-staged": "^13.1.0",
+        "ts-jest": "^29.0.3"
+    },
+    "lint-staged": {
+        "*.js": "eslint -c .eslintrc.js packages/"
+    }
+}
