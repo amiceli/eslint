@@ -14,6 +14,10 @@ Typescript rules extending Javascript rules.
 
 Vue rules.
 
+**@amiceli/eslint-config-astro**
+
+Astro eslint config.
+
 ## Pour les dev
 
 I use jest to test my eslint config in each package

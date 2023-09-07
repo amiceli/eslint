@@ -1,0 +1,19 @@
+{
+    "name": "@amiceli/eslint-config-astro",
+    "version": "1.0.0",
+    "description": "astro eslint rules package",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:amiceli/eslint.git"
+    },
+    "author": "amiceli",
+    "license": "WTFPL",
+    "dependencies": {
+        "eslint": "8.2.0",
+        "eslint-plugin-astro": "^0.27.0"
+    },
+    "peerDependencies": {
+        "eslint": "8.2.0"
+    }
+}

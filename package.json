@@ -13,6 +13,7 @@
     "workspaces": [
         "packages/base",
         "packages/vue",
+        "packages/astro",
         "packages/ts"
     ],
     "devDependencies": {
