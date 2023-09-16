@@ -55,11 +55,9 @@ describe(`eslint - javascript`, () => {
         ).toEqual(`off`)
         expect(
             config.rules[`object-curly-newline`],
-        ).toEqual([`error`,
-            {
-                ImportDeclaration : `never`,
-                ExportDeclaration : `never`,
-            }])
+        ).toEqual(
+            [`error`, { ExportDeclaration : { minProperties : 2, multiline : true }, ImportDeclaration : { minProperties : 2, multiline : true } }],
+        )
         expect(
             config.rules[`object-curly-spacing`],
         ).toEqual([`error`, `always`])

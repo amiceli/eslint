@@ -4,7 +4,7 @@ describe(`eslint - vue`, () => {
 
     it(`should extends some package`, () => {
         expect(
-            config.extends.includes(`plugin:vue/recommended`),
+            config.extends.includes(`plugin:vue/vue3-essential`),
         ).toBeTruthy()
     })
 
