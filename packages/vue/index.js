@@ -1,6 +1,8 @@
 module.exports = {
     extends : [
-        `plugin:vue/recommended`,
+        `eslint:recommended`,
+        `plugin:vue/vue3-essential`,
+        `@vue/eslint-config-typescript`,
     ],
     rules : {
         'vue/html-indent' : [`error`, 4, {

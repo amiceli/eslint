@@ -1,6 +1,6 @@
 {
     "name": "@amiceli/eslint-config-vue",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "description": "vue eslint rules package",
     "main": "index.js",
     "repository": {
