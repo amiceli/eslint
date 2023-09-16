@@ -31,8 +31,8 @@ module.exports = {
         "object-curly-newline" : [
             `error`,
             {
-                ImportDeclaration : `never`,
-                ExportDeclaration : `never`,
+                ImportDeclaration : { multiline : true, minProperties : 2 },
+                ExportDeclaration : { multiline : true, minProperties : 2 },
             },
         ],
         "object-curly-spacing" : [
