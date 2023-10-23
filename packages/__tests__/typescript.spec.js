@@ -35,6 +35,9 @@ describe(`eslint - @typescript`, () => {
             config.rules[`@typescript-eslint/indent`],
         ).toEqual([`error`, 4, {
             SwitchCase : 1,
+            ignoredNodes : [
+                `FunctionExpression[params]`,
+            ],
         }])
         expect(
             config.rules[`@typescript-eslint/no-inferrable-types`],

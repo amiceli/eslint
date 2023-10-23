@@ -37,6 +37,9 @@ module.exports = {
             4,
             {
                 SwitchCase : 1,
+                ignoredNodes : [
+                    `FunctionExpression[params]`,
+                ],
             },
         ],
         "@typescript-eslint/no-inferrable-types" : `off`,
